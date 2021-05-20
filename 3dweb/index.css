@@ -1,0 +1,145 @@
+header{
+  width: 100%;
+  height: 230px;
+  background-color: #d62d20;
+
+}
+.logo{
+     /*position*/
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     margin-top: -50px;
+     margin-left: -150px;
+
+    /*size*/
+     width: 200px;
+     height: 100px;
+
+     /*border*/
+     border-radius: 50%;
+     border-style: solid;
+     border-width: 50px;
+
+     /*font*/
+     font-size: 25px;
+     text-align: center;
+     font-family: 'Pattaya', sans-serif;
+
+     /*color*/
+     color: white;
+     background: #d62d20;
+     border-color: white;
+
+     /*shape*/
+     line-height: 20px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+
+     /*glowing effects*/
+     text-shadow: 0 0 3px black, 0 0 5px black, 0 0 7px black;
+}
+
+
+}
+
+.logo h1{
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.logo h2{
+  margin-top: 0px;
+  text-align: center;
+}
+
+.nav{
+  margin-top: 100px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 200px;
+  left: 0;
+  background-color: #d62d20;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #665f5f;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #f1f1f1;
+}
+
+.nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .nav {padding-top: 15px;}
+  .nav a {font-size: 18px;}
+}
+
+.main{
+    margin-top: 150px;
+}
+
+.main button{
+  background-color: #d62d20;
+  color: black;
+  border: 2px solid #665f5f ;
+
+}
+
+.main button:hover{
+  background-color: #665f5f;
+  color: white;
+}
+
+.botton-left{
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  bottom: -350px ;
+  left: 250px;
+}
+
+.top-left{
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  bottom: -1450px ;
+  left: 250px;
+}
+
+.top-right{
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  bottom: -1550px ;
+  left: 450px;
+}
